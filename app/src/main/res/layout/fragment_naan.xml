@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naanF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".naan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="NAAN BREAD RECIPE\n\n INGREDIENTS\n\n Whole wheat flour\n Herbs and spices\n
+\n PREPARATION\n\n DOUGH\n In a mixing bowl take ¼ cup fresh curd or yogurt.\n Add 1 teaspoon sugar, 1 teaspoon baking powder and 1 pinch baking soda.
+\n With a spoon mix all the ingredients very well till the sugar dissolves.\n
+Now add 2 cups all-purpose flour, 1 teaspoon salt or add as required in the bowl.\n
+Make a well in the center and add 2 tablespoons oil. Note that you can even add butter instead of oil.\n
+ Add ¼ to ⅓ cup water or add as required.\n Knead to a smooth and soft dough.
+\n Place a moist kitchen towel or napkin completely covering on the dough. Cover the bowl with a lid and let the dough leaven for 2 hours.
+\n\n COOKING\n Make medium-sized balls from the dough.\n  Roll to a 6 or 7 inches elongated circle.
+\n Heat a heavy griddle or tawa or skillet and keep on medium-high to high heat. Place the naan bread ready on the hot tawa or skillet or griddle.
+\n Keep the flame to medium-high or high and begin to cook the naan bread.
+\n You have to flip it using tongs and place it directly on the stovetop flame.
+\n Place it on a plate or tray. Spread or brush with some softened butter or melted butter." />
+
+</FrameLayout>

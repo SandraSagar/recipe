@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:text="RECIPE REPOSITORY"
+        android:textAllCaps="true"
+        android:textColor="#CC48356A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:onClick="changeFragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/pannerImage"
+        android:layout_width="159dp"
+        android:layout_height="110dp"
+        android:onClick="changeFragment"
+        app:layout_constraintBottom_toTopOf="@id/panner"
+        app:layout_constraintEnd_toStartOf="@id/tikkaimage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading"
+        app:srcCompat="@drawable/panner" />
+
+    <TextView
+        android:id="@+id/panner"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:text="Panner Butter Masala"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:onClick="changeFragment"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/naanimage"
+        app:layout_constraintEnd_toStartOf="@+id/tikka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pannerImage" />
+
+    <ImageView
+        android:id="@+id/naanimage"
+        android:layout_width="162dp"
+        android:layout_height="140dp"
+        android:onClick="changeFragment"
+        app:layout_constraintBottom_toTopOf="@+id/naan"
+        app:layout_constraintEnd_toStartOf="@+id/kulchaimage"
+        app:layout_constraintTop_toBottomOf="@id/panner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/naan" />
+
+    <TextView
+        android:id="@+id/naan"
+        android:layout_width="92dp"
+        android:layout_height="29dp"
+        android:text="Naan"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:onClick="changeFragment"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/halwaimage"
+        app:layout_constraintEnd_toStartOf="@+id/kulcha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/naanimage" />
+
+    <ImageView
+        android:id="@+id/halwaimage"
+        android:layout_width="146dp"
+        android:layout_height="149dp"
+        android:onClick="changeFragment"
+        app:layout_constraintBottom_toTopOf="@+id/halwa"
+        app:layout_constraintEnd_toStartOf="@+id/gulaabimage"
+        app:layout_constraintTop_toBottomOf="@id/naan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/halwa" />
+
+    <TextView
+        android:id="@+id/halwa"
+        android:layout_width="137dp"
+        android:layout_height="27dp"
+        android:text="Carrot Halwa"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:onClick="changeFragment"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintTop_toBottomOf="@id/halwaimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/jammun"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/tikkaimage"
+        android:layout_width="159dp"
+        android:layout_height="140dp"
+        android:onClick="changeFragment"
+        app:layout_constraintBottom_toTopOf="@+id/tikka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pannerImage"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:srcCompat="@drawable/tikka" />
+
+    <TextView
+        android:id="@+id/tikka"
+        android:layout_width="163dp"
+        android:layout_height="25dp"
+        android:text="Chicken Tikka Masala"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:onClick="changeFragment"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/kulchaimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/panner"
+        app:layout_constraintTop_toBottomOf="@id/tikkaimage" />
+
+    <ImageView
+        android:id="@+id/kulchaimage"
+        android:layout_width="159dp"
+        android:layout_height="138dp"
+        android:onClick="changeFragment"
+        app:srcCompat="@drawable/kulcha"
+        app:layout_constraintTop_toBottomOf="@id/tikka"
+        app:layout_constraintStart_toEndOf="@id/naanimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/kulcha"
+         />
+
+    <TextView
+        android:id="@+id/kulcha"
+        android:layout_width="63dp"
+        android:layout_height="37dp"
+        android:text="Kulcha "
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:onClick="changeFragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/naan"
+        app:layout_constraintTop_toBottomOf="@id/kulchaimage"
+        app:layout_constraintBottom_toTopOf="@id/gulaabimage"
+         />
+
+    <ImageView
+        android:id="@+id/gulaabimage"
+        android:layout_width="145dp"
+        android:layout_height="148dp"
+        android:onClick="changeFragment"
+        app:layout_constraintBottom_toTopOf="@+id/jammun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/halwaimage"
+        app:layout_constraintTop_toBottomOf="@id/kulcha"
+        app:srcCompat="@drawable/jammun" />
+
+    <TextView
+        android:id="@+id/jammun"
+        android:layout_width="141dp"
+        android:layout_height="36dp"
+        android:text="Gulab Jammun"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:onClick="changeFragment"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toEndOf="@id/halwa"
+        app:layout_constraintTop_toBottomOf="@id/gulaabimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Panner">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/pannerF"
+        android:layout_width="401dp"
+        android:layout_height="match_parent"
+        android:text="@string/panner_butter_masala_n_n_n_ingredients_n_n_dried_kashmiri_red_chillies_n_butter_oil_and_cream_n_onions_and_tomatoes_n_ginger_garlic_paste_n_cashew_nuts_n_spices_n_kasuri_methi_n_n_n_preparation_n_n_bouquet_garni_start_with_wrapping_the_spices_in_a_muslin_or_cheesecloth_to_make_a_bouquet_garni_this_helps_add_all_the_flavour_without_having_to_fish_out_the_spices_one_by_one_later_cook_the_kashmiri_chillies_onion_tomato_cashew_poppy_seeds_and_spices_together_till_the_tomatoes_are_soft_and_pulpy_this_is_the_base_of_the_gravy_remove_the_bouquet_garni_whole_spices_and_the_blend_the_onion_tomato_paste_to_really_smooth_you_can_add_some_water_if_required_simmer_the_gravy_along_with_powdered_spices_and_salt_in_butter_for_10_15_minutes_till_you_can_see_a_little_oil_floating_to_the_top_smoke_the_gravy_with_my_dungar_method_this_takes_the_gravy_to_the_next_level_add_kasuri_methi_paneer_and_cream_cook_for_a_minute_or_two_and_you_are_done"
+        />
+</FrameLayout>

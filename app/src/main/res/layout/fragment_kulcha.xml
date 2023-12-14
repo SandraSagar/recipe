@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kulchaF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kulcha">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/kulchaf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/n_kulcha_bread_n_n_ingredients_n_n_1_1_cups_maida_all_purpose_flour_for_dusting_n_2_1_2_teaspoon_baking_powder_n_3_1_teaspoons_sugar_n_4_1_tablespoons_curd_yogurt_n_5_1_tablespoons_oil_n_6_3_tablespoons_milk_n_7_salt_to_taste_n_8_warm_water_to_knead_the_dough_n_9_1_tablespoon_black_sesame_seeds_or_kalonji_seeds_onion_seeds_n_10_3_tablespoons_finely_chopped_coriander_leaves_optional_n_11_butter_as_needed_n_n_how_to_prepare_n_n_1_sift_the_maida_flour_baking_powder_and_salt_together_add_sugar_curd_and_oil_add_milk_and_mix_well_n_2" />
+
+</FrameLayout>

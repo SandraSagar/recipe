@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/halwaf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halwa">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/halwaF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/carrot_halwa_n_n_ingredients_n_n_1_kg_carrot_n_1_2_litre_milk_n_2_green_cardamoms_n_5_7_tbsp_ghee_n_5_7_tbsp_sugar_n_2_tbsp_raisins_n_1_tbsp_almonds_shredded_n_2_tbsp_dates_chopped_n_n_how_to_prepare_n_n_1_peel_and_grate_the_carrots_n_2_simmer_in_milk_with_the_cardamom_until_liquid_evaporates_n_3_heat_ghee_in_a_heavy_pan_and_add_the_carrot_mixture_n_4_cook_over_a_gentle_flame_for_10_15_minutes_n_5_stir_in_sugar_and_continue_cooking_until_the_halwa_turns_deep_reddish_color_n_6_stir_in_dried_fruit_and_serve" />
+
+</FrameLayout>

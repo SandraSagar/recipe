@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jammun">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/jammunF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n GULAB JAMMUN \n\n INGREDIENTS\n\n
+FOR JAMUN:\n
+1. ¾ cup (100 grams) milk powder, unsweetened\n
+2. ½ cup (60 grams) maida / plain flour\n
+3. ½ tsp baking powder\n
+4. 2 tbsp ghee / clarified butter\n
+5. milk, for kneading\n
+6. ghee or oil, for frying\n\n
+FOR SUGAR SYRUP:\n
+1. 2 cup sugar\n
+2. 2 cup water\n
+3. 2 cardamom\n
+4. ¼ tsp saffron / kesar\n
+5. 1 tsp lemon juice\n
+6. 1 tsp rose water\n\n
+ HOW TO PREPARE\n\n
+1) Firstly, in a large bowl take ¾ cup milk powder, ½ cup maida and ½ tsp baking powder.\n
+2) Mix well, homemade gulab jamun mix is ready.\n
+3) Now add 2 tbsp ghee and mix well making the flour moist.\n
+4) Add milk as required start to combine.\n
+5) Combine well forming a soft dough. do not knead the dough.
+Cover and rest for 10 minutes.\n
+6) Meanwhile, prepare the sugar syrup by taking 2 cup sugar, 2 cup water, 2 cardamom and ¼ tsp saffron.
+Mix well and boil for 5 minutes or until the sugar syrup turns sticky. do not attain any string consistency.\n
+7) Turn off the flame and add 1 tsp lemon juice and 1 tsp rose water. lemon juice is added to prevent sugar syrup from crystallizing.
+Cover and keep the sugar syrup aside.\n
+8) After 10 minutes or resting the dough, start to prepare small ball sized jamuns.
+Make sure there are no cracks in the jamun.\n
+9) Deep fry in medium hot oil or ghee.\n
+10) Fry until the jamuns turn golden brown.\n
+11) Drain off and transfer the jamun into a hot sugar syrup.
+Cover and rest for 2 hours or until jamuns absorb the sugar syrup and doubles in size." />
+
+</FrameLayout>

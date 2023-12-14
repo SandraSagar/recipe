@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tikka">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tikkaF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/n_chicken_tikka_masala_n_n_ingredients_n_n_1_chicken_n_2_yogurt_n_3_tomato_sauce_n_4_cream_n_5_masala_paste_n_n_how_to_prepare_n_n_1_masala_paste_pulse_all_ingredients_into_a_food_processor_until_smooth_n_2_marinate_chicken_cut_the_chicken_into_bite_sized_pieces_marinate_with_1_2_tablespoons_of_masala_paste_and_the_yogurt_for_about_30_minutes_in_the_fridge_n_3_cook_the_chicken_in_batches_undisturbed_until_each_piece_is_nice_and_browned_on_the_outside_n_4_add_2_3_tablespoons_of_masala_paste_to_the_same_skillet_stir_fry_for_a_few_minutes_add_the_tomato_puree_and_browned_chicken_simmer_for_10_15_minutes_n_5_finish_stir_in_cream_or_coconut_milk_season_with_salt" />
+
+</FrameLayout>
